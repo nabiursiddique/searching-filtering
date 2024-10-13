@@ -25,8 +25,6 @@ const ClientFiltering = () => {
     // }
     return (
         <div>
-            <h1 className="text-4xl font-bold text-center my-10">Searching And Filtering</h1>
-
             <div className="lg:w-1/2 w-full mx-auto">
                 <label className="input input-bordered flex items-center gap-2">
                     <input type="text" className="grow" placeholder="Search" onChange={(e) => setQuery(e.target.value)} />
